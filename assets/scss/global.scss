@@ -1,0 +1,24 @@
+.customPcSidebar {
+  // @media (max-width: 1024px) {
+  //   display: none !important;
+  // }
+  @media (max-width: 1199px) {
+    display: none !important;
+  }
+}
+
+.adminCal {
+  // margin-top: 13rem !important;
+  margin-top: 10rem !important;
+
+  @media (max-width: 768px) {
+    margin-top: 5rem !important;
+  }
+  @media (max-width: 425px) {
+    margin-top: 3rem !important;
+  }
+}
+
+.chartjs-render-monitor {
+  height: auto !important;
+}
